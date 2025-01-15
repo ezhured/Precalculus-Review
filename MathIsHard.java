@@ -200,7 +200,7 @@ public class MathIsHard {
     }
   }
 
-  public String units() { //changes the units depending on the user's input
+  public String units() { //changes the units depending on the user's input: radians or degrees
     System.out.print("Would you like to work in degrees or radians? (D / R) ");
     String unit = input.next();
     if (unit.equals("D") == false && unit.equals("R")==false) {
