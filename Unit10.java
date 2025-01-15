@@ -227,7 +227,7 @@ public class Unit10 extends Unit{
     return problem;
   }
 
-  public String findPlane(){ // creates and solves a problem that gives three points and the user has to the find the plane that is determined by those 3 points.
+  public String findPlane(){ // creates and solves a problem that gives three points and the user has to the find the plane that is determined by those 3 points
     answer = "";
     String str = "What is plane formed by (";
     int[] point1 = vectorGenerator(3); // generating points (x,y,z)
